@@ -1,18 +1,18 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <v-container fluid fill-height class="pa-0">
+    <CenterImage />
+    <!-- <Button /> -->
+  </v-container>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "home",
+  name: "App",
   components: {
-    HelloWorld
+    CenterImage: () => import("@/components/home/CenterImage"),
+    Button: () => import("@/components/home/Button")
   }
 };
 </script>
+
+<style lang="sass" scoped></style>
