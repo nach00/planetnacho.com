@@ -35,19 +35,26 @@
                 class="font-weight-black"
                 href="https://v2.waitwhile.com/welcome/planetnacho"
               >
-                Join the waitlist
+                Join waitlist
               </v-btn>
             </div>
-            <div class="status body-2 mb-5">
+            <div
+              class="status"
+            >
               We usually work on multiple projects at once, but we are not currently accepting new clients at the moment. Join the waitlist to get notified when we're ready to take on more work!
             </div>
           </v-col>
           <v-col>
-            <div class="cheese--text overline fancy-link">
+            <div
+              class="
+              cheese--text
+              overline
+              fancy-link"
+            >
               Closed Alpha Testing Status
             </div>
             <div class="orange-divider mb-5" />
-            <div class="body-2">
+            <div class="">
               Alpha testing is now live! Be the first to help shape the future of our design process. Used to collect initial market research, generate product strategy, and gather client feedback.
             </div>
           </v-col>
@@ -56,7 +63,7 @@
               Pro Bono Services
             </div>
             <div class="orange-divider mb-5" />
-            <div class="body-2">
+            <div class="">
               We're happy to support your 501c3/Non-Profit organization! Animal/pet rescue organizations prioritized.
             </div>
           </v-col>
@@ -83,10 +90,10 @@
               class="font-weight-black"
               href="https://v2.waitwhile.com/welcome/planetnacho"
             >
-              Join the waitlist
+              Join waitlist
             </v-btn>
           </div>
-          <div class="status body-2 mb-5">
+          <div class="status mb-5">
             We usually work on multiple projects at once, but we are not currently accepting new clients at the moment. Join the waitlist to get notified when we're ready to take on more work!
           </div>
         </v-col>
@@ -95,7 +102,7 @@
             Closed Alpha Testing Status
           </div>
           <div class="orange-divider mb-5" />
-          <div class="body-2">
+          <div class="">
             Alpha testing is now live! Be the first to help shape the future of our design process. Used to collect initial market research, generate product strategy, and gather client feedback.
           </div>
         </v-col>
@@ -104,7 +111,7 @@
             Pro Bono Services
           </div>
           <div class="orange-divider mb-5" />
-          <div class="body-2">
+          <div class="">
             We're happy to support your 501c3/Non-Profit organization! Animal/pet rescue organizations prioritized.
           </div>
         </v-col>
@@ -160,7 +167,7 @@
 
               <v-container class="">
                 <span class="text-uppercase font-weight-black">Deliverables</span>
-                <ul class="body-2">
+                <ul class="">
                   <li>Finalized high-fidelity mockup mobile, tablet, or desktop screens</li>
                   <li>Original Adobe XD or Figma file</li>
                   <li>All associated assets (icons, logos, fonts, if applicable)</li>
@@ -269,7 +276,7 @@
 
               <v-container class="">
                 <span class="text-uppercase font-weight-black">Deliverables</span>
-                <ul class="body-2">
+                <ul class="">
                   <li>Finalized high-fidelity mockup mobile/tablet screens</li>
                   <li>Original Adobe XD or Figma file</li>
                   <li>All associated assets (icons, logos, fonts, if applicable)</li>
@@ -337,10 +344,10 @@
         </v-container>
       </v-container>
     </v-container>
-    </v-container>
   </v-content>
 </template>
 <style lang="sass">
-//.starting-at
-//  text-transform: uppercase
+//.body-2
+//  font-size: medium !important
+  //font-family: "Open Sans", sans-serif
 </style>

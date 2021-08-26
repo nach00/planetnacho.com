@@ -11,6 +11,7 @@
             contain
             min-height="35vh"
             max-height="50vh"
+            style="bottom: 15vh"
           />
         </v-row>
       </v-col>

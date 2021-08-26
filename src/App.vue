@@ -41,7 +41,7 @@ $cheese: "#f1c40f"
   font-family: "Open Sans", serif !important
 
 html
-  background: black
+  background-color: black
 
 div, span
   color: white
@@ -53,8 +53,6 @@ video
   position: fixed
   top: 0
   left: 0
-
-v-btn
 
 .tinted-bg
   background: rgba(0, 0, 0, .8)
