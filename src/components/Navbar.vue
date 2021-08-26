@@ -1,130 +1,168 @@
 <template>
-  <nav>
-    <v-app-bar
-      dense
-      class="mdDark"
+  <v-content>
+    <v-toolbar
+      class="mt-16 px-16 transparent"
+      min-width="100vw"
       absolute
+      flat
     >
-      <v-app-bar-nav-icon
-        class="success--text d-flex d-md-none"
-        @click="drawer = true"
-      />
-      <img
-        src="../../public/img/logo/success--logo.svg"
-        height="30px"
-        alt="logo"
-        class="mr-2 d-none d-md-flex"
-      >
       <v-toolbar-title
-        class="success--text mr-8"
+        style="cursor: pointer"
+        @click="$router.push('/')"
       >
-        planet nacho
+        <v-img
+          src="../../public/img/logo/logo-planet-nacho-white.svg"
+          alt="logo"
+          width="100%"
+        />
       </v-toolbar-title>
-
-      <v-toolbar-items>
-        <v-btn
-          v-for="item in menuItems"
-          :key="item.title"
-          :to="item.link"
-          class="flatSunflower--text mdDark d-none d-md-flex"
-        >
-          {{ item.title }}
-        </v-btn>
-      </v-toolbar-items>
-      <v-spacer />
-      <v-toolbar-items class="mr-n4">
-        <v-btn
-          class="flatSunflower mdDark--text mdDark d-none d-md-flex"
-          to="/contact"
-        >
-          Contact
-        </v-btn>
-      </v-toolbar-items>
-    </v-app-bar>
-
-    <v-navigation-drawer
-      v-model="
-        drawer"
-      absolute
-      temporary
-      class="flatSunflower"
-    >
-      <v-list
-        nav
-        dense
-      >
-        <v-list-item-group
-          v-model="group"
-        >
-          <v-list-item
-            v-for="item in menuItems"
-            :key="item.title"
-            :to="item.link"
-            class="menu-item"
-          >
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item>
-        </v-list-item-group>
-      </v-list>
       <v-btn
-        class="mdDark flatSunflower--text ml-4"
-        to="/contact"
+        to="/agency"
+        class="font-weight-black white--text d-none d-md-flex"
+        plain
+      >
+        Agency
+      </v-btn>
+      <v-spacer />
+      <v-btn
+        icon
+        plain
+        class="white--text mr-5 d-none d-md-flex"
+        href="https://www.linkedin.com/company/planet-nacho"
+      >
+        <v-icon>
+          mdi-linkedin
+        </v-icon>
+      </v-btn>
+      <v-btn
+        outlined
+        color="cheese"
+        class="font-weight-black cheese--text d-none d-md-flex"
+        href="mailto:oplanetnacho@gmail.com"
       >
         Contact
       </v-btn>
+      <v-app-bar-nav-icon
+        class="text--white d-md-none"
+        color="white"
+        @click.stop="drawer = !drawer"
+      />
+    </v-toolbar>
+
+    <v-navigation-drawer
+      v-model="drawer"
+      absolute
+      temporary
+      class="black--text cheese d-flex"
+      width="100vw"
+      style="min-height: 100vh"
+    >
+      <div
+        class="mx-auto mt-10"
+        style="max-width: 80vw"
+      >
+        <v-container
+          class="justify-space-between align-center d-inline-flex"
+        >
+          <img
+            src="../../public/img/logo/logo-planet-nacho-black.svg"
+            alt="logo"
+          >
+
+          <v-btn
+            icon
+            plain
+            class="black--text"
+            @click="drawer = false"
+          >
+            <v-icon large>
+              mdi-close
+            </v-icon>
+          </v-btn>
+        </v-container>
+        <div class="d-flex flex-column">
+          <v-btn
+            class="text transparent font-weight-black pa-10"
+            depressed
+            to="/agency"
+            plain
+          >
+            Agency
+          </v-btn>
+
+          <v-btn
+            class="text font-weight-black pa-5"
+            depressed
+            outlined
+            href="mailto:oplanetnacho@gmail.com"
+          >
+            Contact
+          </v-btn>
+
+          <v-btn
+            icon
+            plain
+            class="black--text pa-10"
+            href="https://www.linkedin.com/company/planet-nacho"
+            block
+          >
+            <v-icon>
+              mdi-linkedin
+            </v-icon>
+          </v-btn>
+        </div>
+      </div>
     </v-navigation-drawer>
-  </nav>
+    <!--    <v-navigation-drawer-->
+    <!--      v-model="drawer"-->
+    <!--      absolute-->
+    <!--      temporary-->
+    <!--      style="z-index: 999"-->
+    <!--      class="white"-->
+    <!--    >-->
+    <!--      <v-list-->
+    <!--        nav-->
+    <!--        dense-->
+    <!--      >-->
+    <!--        <v-list-item-group-->
+    <!--          v-model="group"-->
+    <!--          active-class="deep-purple&#45;&#45;text text&#45;&#45;accent-4"-->
+    <!--        >-->
+    <!--          <v-list-item>-->
+    <!--            <v-list-item-title>Foo</v-list-item-title>-->
+    <!--          </v-list-item>-->
+
+    <!--          <v-list-item>-->
+    <!--            <v-list-item-title>Bar</v-list-item-title>-->
+    <!--          </v-list-item>-->
+
+    <!--          <v-list-item>-->
+    <!--            <v-list-item-title>Fizz</v-list-item-title>-->
+    <!--          </v-list-item>-->
+
+    <!--          <v-list-item>-->
+    <!--            <v-list-item-title>Buzz</v-list-item-title>-->
+    <!--          </v-list-item>-->
+    <!--        </v-list-item-group>-->
+    <!--      </v-list>-->
+    <!--    </v-navigation-drawer>-->
+  </v-content>
 </template>
 
 <script>
   export default {
-    data () {
-      return {
-        drawer: false,
-        group: null,
-        menuItems: [
-          { title: 'home', link: '/' },
-          { title: 'about', link: '/about' },
-          { title: 'portfolio', link: '/portfolio' },
-          { title: 'resume', link: '/resume' }
-        ]
+    data: () => ({
+      drawer: false,
+      group: null
+    }),
+
+    watch: {
+      group () {
+        this.drawer = true
       }
     }
   }
 </script>
 
-<style lang="sass">
-*
-  font-family: monotalic, monospace
-
-.menu-item
-  text-transform: uppercase
-
-.v-btn
-  font-weight: 600
-  letter-spacing: .3em
-  font-size: small
-  font-family: monotalic, monospace
-  &:hover
-    cursor: url("../../public/img/middle-finger-cursor.png"), auto
-    animation: jelly 0.5s
-    text-shadow: 0 0 10px #f1c40f
-    font-weight: 900
-  @keyframes jelly
-    0%,
-    100%
-      transform: scale(1, 1)
-    25%
-      transform: scale(0.9, 1.1)
-    50%
-      transform: scale(1.1, 0.9)
-    75%
-      transform: scale(0.95, 1.05)
-
-.v-btn__content
-  &:hover
-    cursor: url("../../public/img/middle-finger-cursor.png"), auto
-    animation: jelly 0.5s
-    text-shadow: 0 0 10px #f1c40f
-    font-weight: 900
+<style lang="sass" scoped>
 </style>

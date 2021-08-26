@@ -32,10 +32,16 @@
 </script>
 
 <style lang="sass">
-@import url("https://use.typekit.net/ggq3gsy.css")
+$cheese: "#f1c40f"
+//@import url("https://use.typekit.net/ggq3gsy.css")
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap')
 
 *
-  cursor: url(../public/img/rocketship.png), auto
+  //cursor: url(../public/img/rocketship.png), auto
+  font-family: "Open Sans", serif !important
+
+div, span
+  color: white
 
 video
   object-fit: cover
@@ -45,6 +51,55 @@ video
   top: 0
   left: 0
 
+v-btn
+
 .tinted-bg
-  background: rgba(0, 0, 0, .66)
+  background: rgba(0, 0, 0, .8)
+
+.orange-divider
+  background-color: #f1c40f
+  height: 1px
+
+.gray-divider
+  background-color: #888888
+  height: 1px
+
+.fancy-link
+  text-decoration: none
+  background-image: linear-gradient(#f1c40f, #f1c40f)
+  background-repeat: no-repeat
+  background-position: bottom left
+  background-size: 0 3px
+  transition: background-size 500ms ease-in-out
+  font-weight: 800
+
+.fancy-link:hover
+  background-size: 100% 3px
+  color: inherit
+
+.v-btn
+  //font-weight: 600
+  //letter-spacing: .3em
+  //font-size: small
+  //font-family: monotalic, monospace
+  &:hover
+    animation: jelly 0.5s
+    text-shadow: 0 0 10px #f1c40f
+    font-weight: 900
+  @keyframes jelly
+    0%,
+    100%
+      transform: scale(1, 1)
+    25%
+      transform: scale(0.9, 1.1)
+    50%
+      transform: scale(1.1, 0.9)
+    75%
+      transform: scale(0.95, 1.05)
+
+.v-btn__content
+  &:hover
+    animation: jelly 0.5s
+    text-shadow: 0 0 10px #f1c40f
+    font-weight: 900
 </style>

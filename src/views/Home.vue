@@ -13,13 +13,6 @@
             max-height="50vh"
           />
         </v-row>
-
-        <v-row
-          justify="center"
-          class="warning--text landingPageSubtitle"
-        >
-          A PERSONAL WEBSITE
-        </v-row>
       </v-col>
     </v-container>
   </v-content>
