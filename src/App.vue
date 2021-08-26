@@ -40,6 +40,9 @@ $cheese: "#f1c40f"
   //cursor: url(../public/img/rocketship.png), auto
   font-family: "Open Sans", serif !important
 
+html
+  background: black
+
 div, span
   color: white
 
