@@ -3,8 +3,8 @@
     <v-container
       class="tinted-bg center-image"
       fluid
-      style="padding-top: 150px"
       fill-height
+      style="padding-top: 150px"
     >
       <v-container
         id="intro"

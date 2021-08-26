@@ -57,6 +57,12 @@ video
 
 .tinted-bg
   background: rgba(0, 0, 0, .8)
+  height: 100vh
+  width: 100vw
+  position: fixed
+  object-fit: cover
+  top: 0
+  left: 0
 
 .orange-divider
   background-color: #f1c40f

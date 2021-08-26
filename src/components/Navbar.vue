@@ -1,10 +1,10 @@
 <template>
-  <v-content>
+  <v-content class="">
     <v-toolbar
       class="mt-16 px-16 transparent"
       min-width="100vw"
-      absolute
       flat
+      absolute
     >
       <v-toolbar-title
         style="cursor: pointer"
@@ -148,6 +148,7 @@
     <!--        </v-list-item-group>-->
     <!--      </v-list>-->
     <!--    </v-navigation-drawer>-->
+    </v-contento>
   </v-content>
 </template>
 
