@@ -188,7 +188,7 @@
                   </span>
                 </v-container>
                 <v-container
-                  class="d-flex fluid justify-end pa-0"
+                  class="d-flex fluid justify-end pa-0 text-end"
                 >
                   2 week delivery
                   <v-icon
@@ -198,7 +198,7 @@
                     mdi-clock
                   </v-icon>
                 </v-container>
-                <v-container class="d-flex fluid justify-end pa-0">
+                <v-container class="d-flex fluid  text-end justify-end pa-0">
                   3 project meetings
                   <v-icon
                     class="white--text ml-5"
@@ -207,7 +207,7 @@
                     mdi-calendar
                   </v-icon>
                 </v-container>
-                <v-container class="d-flex fluid justify-end pa-0">
+                <v-container class="d-flex fluid justify-end pa-0 text-end">
                   3 revisions
                   <v-icon
                     class="white--text ml-5"
