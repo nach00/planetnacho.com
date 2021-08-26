@@ -131,7 +131,7 @@
                 </div>
                 <v-container>
                   <v-row class="justify-space-between">
-                    <v-col class="cheese--text text-uppercase text-center darken-4 grey">
+                    <v-col class="cheese--text text-uppercase text-center darken-4 justify-center grey d-flex align-center">
                       <v-icon
                         class="cheese--text mr-1"
                       >
@@ -139,10 +139,10 @@
                       </v-icon>
                       5 Mobile screens
                     </v-col>
-                    <v-col class="or text-uppercase font-weight-black text-center">
+                    <v-col class="or text-uppercase font-weight-black text-center d-flex align-center justify-center">
                       - or -
                     </v-col>
-                    <v-col class="cheese--text text-uppercase text-center darken-4 grey">
+                    <v-col class="cheese--text text-uppercase text-center darken-4 grey ">
                       <v-icon
                         class="cheese--text mr-1"
                       >
@@ -161,7 +161,7 @@
               <v-container class="">
                 <span class="text-uppercase font-weight-black">Deliverables</span>
                 <ul class="body-2">
-                  <li>Finalized high-fidelity mockup mobile/tablet screens</li>
+                  <li>Finalized high-fidelity mockup mobile, tablet, or desktop screens</li>
                   <li>Original Adobe XD or Figma file</li>
                   <li>All associated assets (icons, logos, fonts, if applicable)</li>
                   <li>Developer handoff export link for style guide</li>
