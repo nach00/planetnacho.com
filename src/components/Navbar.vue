@@ -67,6 +67,8 @@
           <img
             src="../../public/img/logo/logo-planet-nacho-black.svg"
             alt="logo"
+            style="cursor: pointer"
+            @click="$router.push('/')"
           >
 
           <v-btn
