@@ -39,8 +39,13 @@ $cheese: "#f1c40f"
   font-family: 'Whirlybats'
   src: url("../public/fonts/WhirlybatsVariable.ttf") format("truetype")
 
+@font-face
+  font-family: 'Whirly Birdie'
+  src: url("../public/fonts/WhirlyBirdieVariable.ttf") format("truetype")
+
 *
   //cursor: url(../public/img/rocketship.png), auto
+  //font-family: "Whirly Birdie", serif !important
   font-family: "Open Sans", serif !important
 
 html
@@ -88,7 +93,6 @@ video
   color: inherit
 
 .v-btn
-  //font-weight: 600
   //letter-spacing: .3em
   //font-size: small
   //font-family: monotalic, monospace
