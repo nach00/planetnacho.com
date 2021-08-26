@@ -20,7 +20,17 @@
       >
         <v-row>
           <v-col>
-            <div class="cheese--text overline fancy-link">
+            <div
+              class="
+              cheese--text
+              text-uppercase
+              fancy-link align-center d-flex"
+            >
+              <i
+                id="whirlybat"
+                style="font-size: 2em; text-transform: none"
+                class="wb-icon mr-3"
+              >U</i>
               Current Availability
             </div>
             <div class="orange-divider mb-5" />
@@ -48,10 +58,15 @@
             <div
               class="
               cheese--text
-              overline
-              fancy-link"
+              text-uppercase
+              fancy-link align-center d-flex"
             >
-              Closed Alpha Testing Status
+              <i
+                id="whirlybat"
+                style="font-size: 2em; text-transform: none"
+                class="wb-icon mr-3"
+              >l</i>
+              Closed Alpha Testing
             </div>
             <div class="orange-divider mb-5" />
             <div class="">
@@ -59,7 +74,17 @@
             </div>
           </v-col>
           <v-col>
-            <div class="cheese--text overline fancy-link">
+            <div
+              class="
+              cheese--text
+              text-uppercase
+              fancy-link align-center d-flex"
+            >
+              <i
+                id="whirlybat"
+                style="font-size: 2em; text-transform: none"
+                class="wb-icon mr-3"
+              >g</i>
               Pro Bono Services
             </div>
             <div class="orange-divider mb-5" />
@@ -75,7 +100,17 @@
         fluid
       >
         <v-col>
-          <div class="cheese--text overline fancy-link">
+          <div
+            class="
+              cheese--text
+              text-uppercase
+              fancy-link align-center d-flex"
+          >
+            <i
+              id="whirlybat"
+              style="font-size: 2em; text-transform: none"
+              class="wb-icon mr-3"
+            >U</i>
             Current Availability
           </div>
           <div class="orange-divider mb-5" />
@@ -98,16 +133,37 @@
           </div>
         </v-col>
         <v-col>
-          <div class="cheese--text overline fancy-link">
-            Closed Alpha Testing Status
+          <div
+            class="
+              cheese--text
+              text-uppercase
+              fancy-link align-center d-flex"
+          >
+            <i
+              id="whirlybat"
+              style="font-size: 2em; text-transform: none"
+              class="wb-icon mr-3"
+            >l</i>
+            Closed Alpha Testing
           </div>
+
           <div class="orange-divider mb-5" />
           <div class="">
             Alpha testing is now live! Be the first to help shape the future of our design process. Used to collect initial market research, generate product strategy, and gather client feedback.
           </div>
         </v-col>
         <v-col>
-          <div class="cheese--text overline fancy-link">
+          <div
+            class="
+              cheese--text
+              text-uppercase
+              fancy-link align-center d-flex"
+          >
+            <i
+              id="whirlybat"
+              style="font-size: 2em; text-transform: none"
+              class="wb-icon mr-3"
+            >g</i>
             Pro Bono Services
           </div>
           <div class="orange-divider mb-5" />
@@ -120,7 +176,17 @@
         id="content"
         class="mt-10"
       >
-        <div class="cheese--text overline fancy-link">
+        <div
+          class="
+              cheese--text
+              text-uppercase
+              fancy-link align-center d-flex"
+        >
+          <i
+            id="whirlybat"
+            style="font-size: 2em; text-transform: none"
+            class="wb-icon mr-3"
+          >r</i>
           Service Packages
         </div>
 
@@ -230,6 +296,11 @@
                 href="https://calendly.com/npradappet/jam"
               >
                 Let's jam!
+                <i
+                  id="whirlybat"
+                  style="font-size: 1em; text-transform: none"
+                  class="wb-icon"
+                >ω</i>
               </v-btn>
             </v-col>
           </v-row>
@@ -338,6 +409,11 @@
                 href="https://calendly.com/npradappet/jam"
               >
                 Let's jam!
+                <i
+                  id="whirlybat"
+                  style="font-size: 1em; text-transform: none"
+                  class="wb-icon"
+                >ω</i>
               </v-btn>
             </v-container>
           </v-row>
@@ -350,4 +426,10 @@
 //.body-2
 //  font-size: medium !important
   //font-family: "Open Sans", sans-serif
+
+.big-title
+  font-size: large !important
+
+.small-title
+  font-size: small !important
 </style>

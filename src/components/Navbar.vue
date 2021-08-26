@@ -41,6 +41,10 @@
         href="mailto:oplanetnacho@gmail.com"
       >
         Contact
+        <i
+          id="whirlybat"
+          class="wb-icon"
+        >✉</i>
       </v-btn>
       <v-app-bar-nav-icon
         class="text--white d-md-none"

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-app>
-      <!--      <app-bar />-->
+      <app-bar />
       <navbar />
 
       <video
@@ -35,6 +35,9 @@
 $cheese: "#f1c40f"
 //@import url("https://use.typekit.net/ggq3gsy.css")
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap')
+@font-face
+  font-family: 'Whirlybats'
+  src: url("../public/fonts/WhirlybatsVariable.ttf") format("truetype")
 
 *
   //cursor: url(../public/img/rocketship.png), auto
@@ -59,7 +62,6 @@ video
   background: rgba(0, 0, 0, .8)
   height: 100vh
   width: 100vw
-  position: fixed
   object-fit: cover
   top: 0
   left: 0
@@ -107,7 +109,29 @@ video
 
 .v-btn__content
   &:hover
-    animation: jelly 0.5s
-    text-shadow: 0 0 10px #f1c40f
-    font-weight: 900
+    animation: jelly 0.5s !important
+    text-shadow: 0 0 10px #f1c40f !important
+    font-weight: 900 !important
+
+.wb-icon
+  font-family: 'Whirlybats', sans-serif !important
+  font-weight: normal !important
+  font-style: normal !important
+  display: inline-block !important
+  white-space: nowrap !important
+  word-wrap: normal !important
+  direction: ltr !important
+  font-feature-settings: 'liga' !important
+  -webkit-font-smoothing: antialiased !important
+  text-rendering: optimizeLegibility !important
+  -moz-osx-font-smoothing: grayscale !important
+  @keyframes whirlyAnimate
+    0%
+      font-variation-settings: "anim" 100
+    100%
+      font-variation-settings: "anim" 200
+
+#whirlybat
+  animation: whirlyAnimate 1s linear infinite
+
 </style>
