@@ -211,6 +211,11 @@
               >
                 <v-container class="text-uppercase">
                   <div class="font-weight-black mb-5">
+                    <i
+                      id="whirlybat"
+                      style="font-size: 1em; text-transform: none"
+                      class="wb-icon"
+                    >E</i>
                     ON-DEMAND UX/UI MOCKUP SCREENS
                   </div>
                   <v-container>
@@ -243,6 +248,11 @@
                 </v-container>
 
                 <v-container class="">
+                  <i
+                    id="whirlybat"
+                    style="font-size: 1em; text-transform: none"
+                    class="wb-icon mr-2"
+                  >Π</i>
                   <span class="text-uppercase font-weight-black">Deliverables</span>
                   <ul class="">
                     <li>Finalized high-fidelity mockup mobile, tablet, or desktop screens</li>
@@ -325,6 +335,11 @@
               >
                 <v-container class="text-uppercase">
                   <div class="font-weight-black mb-5">
+                    <i
+                      id="whirlybat"
+                      style="font-size: 1em; text-transform: none"
+                      class="wb-icon"
+                    >E</i>
                     ON-DEMAND UX/UI MOCKUP SCREENS
                   </div>
                   <v-container>
@@ -357,6 +372,11 @@
                 </v-container>
 
                 <v-container class="">
+                  <i
+                    id="whirlybat"
+                    style="font-size: 1em; text-transform: none"
+                    class="wb-icon mr-2"
+                  >Π</i>
                   <span class="text-uppercase font-weight-black">Deliverables</span>
                   <ul class="">
                     <li>Finalized high-fidelity mockup mobile/tablet screens</li>
