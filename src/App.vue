@@ -42,11 +42,14 @@ $cheese: "#f1c40f"
 @font-face
   font-family: 'Whirly Birdie'
   src: url("../public/fonts/WhirlyBirdieVariable.ttf") format("truetype")
+@font-face
+  font-family: 'Inter'
+  src: url("../public/fonts/Inter.ttf") format("truetype")
 
 *
   //cursor: url(../public/img/rocketship.png), auto
   //font-family: "Whirly Birdie", serif !important
-  font-family: "Open Sans", serif !important
+  font-family: "Inter", serif !important
 
 html
   background-color: black
@@ -64,7 +67,7 @@ video
   background-color: black
 
 .tinted-bg
-  background: rgba(0, 0, 0, .8)
+  background: rgba(0, 0, 0, .6)
 
 .orange-divider
   background-color: #f1c40f

@@ -2,8 +2,9 @@
   <v-content>
     <v-container
       class="tinted-bg"
-      style="padding-top: 150px; position: sticky; width: 100vw; height: 100vh"
       fluid
+      style="padding-top: 150px"
+      fill-height
     >
       <v-container>
         <v-container
@@ -16,7 +17,8 @@
 
         <v-container
           id="info"
-          class="mt-5 d-none d-md-flex"
+          class="tinted-bg d-none d-md-flex"
+          style="top: 0"
         >
           <v-row>
             <v-col>
@@ -102,7 +104,7 @@
         </v-container>
         <v-container
           id="info"
-          class="mt-5 d-md-none"
+          class="mt-5 d-md-none tinted-bg"
           fluid
         >
           <v-col>
@@ -275,7 +277,7 @@
                     <span
                       class="text-uppercase font-weight-black"
                     >
-                      Starting a
+                      Starting at
                     </span>
                     <span class="price cheese--text ml-1 font-weight-black">
                       $3K
@@ -428,7 +430,7 @@
                   <span
                     class="text-uppercase font-weight-black"
                   >
-                    Starting a
+                    Starting at
                   </span>
                   <span class="price cheese--text ml-1 font-weight-black">
                     $3K
