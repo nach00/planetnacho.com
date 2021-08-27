@@ -1,10 +1,13 @@
 <template>
-  <v-content class="">
+  <v-content
+    class=""
+  >
     <v-toolbar
       class="mt-16 px-16 transparent"
       min-width="100vw"
       flat
       absolute
+      style=""
     >
       <v-toolbar-title
         style="cursor: pointer"
