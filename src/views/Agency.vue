@@ -91,6 +91,11 @@
               <div class="orange-divider mb-5" />
               <div class="">
                 We're happy to support your 501c3/Non-Profit organization! Animal/pet rescue organizations prioritized.
+                <i
+                  id="whirlybat"
+                  style="font-size: 1em; text-transform: none"
+                  class="wb-icon"
+                >+</i>
               </div>
             </v-col>
           </v-row>
@@ -170,6 +175,11 @@
             <div class="orange-divider mb-5" />
             <div class="">
               We're happy to support your 501c3/Non-Profit organization! Animal/pet rescue organizations prioritized.
+              <i
+                id="whirlybat"
+                style="font-size: 1em; text-transform: none"
+                class="wb-icon"
+              >+</i>
             </div>
           </v-col>
         </v-container>
