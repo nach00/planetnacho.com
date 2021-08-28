@@ -2,6 +2,7 @@
   <v-content>
     <v-container
       class="black"
+      style="max-width: 1080px"
     >
       <v-container
         id="intro"
@@ -268,7 +269,7 @@
               cols="5"
             >
               <v-container class="">
-                <v-container class=" d-flex justify-end pa-0 mb-5">
+                <v-container class="d-flex justify-end pa-0 mb-5">
                   <span
                     class="text-uppercase font-weight-black"
                   >
@@ -420,7 +421,7 @@
             </v-container>
             <v-container class="d-flex">
               <v-container
-                class="d-flex"
+                class="d-flex small-title"
               >
                 <span
                   class="text-uppercase font-weight-black"
