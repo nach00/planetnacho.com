@@ -40,16 +40,56 @@ $cheese: "#f1c40f"
   font-family: 'Whirlybats'
   src: url("../public/fonts/WhirlybatsVariable.ttf") format("truetype")
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap')
+//@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap')
+//
+@import url('https://rsms.me/inter/inter.css')
+html
+  font-family: 'Inter', sans-serif
+
+@supports (font-variation-settings: normal)
+html
+  font-family: 'Inter var', sans-serif
 
 *
   //cursor: url(../public/img/rocketship.png), auto
-  font-family: "Inter", serif !important
+  font-family: "Inter var", serif !important
+
+.text
+  font-family: "Inter var", serif !important
+
+  &-s
+    @extend .text
+    font-size: 12px
+
+  &-m
+    @extend .text
+    font-size: 14px
+
+  &-l
+    @extend .text
+    font-size: 16px
+
+.heading
+  font-family: "Inter var", serif !important
+
+  &-s
+    @extend .text
+    font-size: 20px
+
+  &-m
+    @extend .text
+    font-size: 28px
+
+  &-l
+    @extend .text
+    font-size: 36px
 
 html
   background-color: black
+
 div, span
   color: white
+
 video
   object-fit: cover
   width: 100vw
@@ -59,14 +99,18 @@ video
   left: 0
   background-color: black
   filter: brightness(50%)
+
 .tinted-bg
   background: rgba(0, 0, 0, .6)
+
 .orange-divider
   background-color: #f1c40f
   height: 1px
+
 .gray-divider
   background-color: #888888
   height: 1px
+
 .fancy-link
   text-decoration: none
   background-image: linear-gradient(#f1c40f, #f1c40f)
@@ -75,13 +119,11 @@ video
   background-size: 0 3px
   transition: background-size 500ms ease-in-out
   font-weight: 800
-.fancy-link:hover
-  background-size: 100% 3px
-  color: inherit
+  &:hover
+    background-size: 100% 3px
+    color: inherit
+
 .v-btn
-  //letter-spacing: .3em
-  //font-size: small
-  //font-family: monotalic, monospace
   &:hover
     animation: jelly 0.5s
     text-shadow: 0 0 10px #f1c40f
@@ -96,11 +138,13 @@ video
       transform: scale(1.1, 0.9)
     75%
       transform: scale(0.95, 1.05)
+
 .v-btn__content
   &:hover
     animation: jelly 0.5s !important
     text-shadow: 0 0 10px #f1c40f !important
     font-weight: 900 !important
+
 .wb-icon
   font-family: 'Whirlybats', sans-serif !important
   font-weight: normal !important
@@ -118,6 +162,7 @@ video
       font-variation-settings: "anim" 100
     100%
       font-variation-settings: "anim" 200
+
 #whirlybat
   animation: whirlyAnimate 1s linear infinite
 </style>
