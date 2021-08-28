@@ -60,14 +60,20 @@ html
   &-s
     @extend .text
     font-size: 12px
+    letter-spacing: 0
+    line-height: 17px
 
   &-m
     @extend .text
     font-size: 14px
+    letter-spacing: -0.006em
+    line-height: 20px
 
   &-l
     @extend .text
     font-size: 16px
+    letter-spacing: -0.011em
+    line-height: 22px
 
 .heading
   font-family: "Inter var", serif !important
@@ -75,14 +81,20 @@ html
   &-s
     @extend .text
     font-size: 20px
+    letter-spacing: -0.017em
+    line-height: 28px
 
   &-m
     @extend .text
-    font-size: 28px
+    font-size: 30px
+    letter-spacing: -0.021em
+    line-height: 42px
 
   &-l
     @extend .text
-    font-size: 36px
+    font-size: 40px
+    letter-spacing: -0.022em
+    line-height: 56px
 
 html
   background-color: black
@@ -118,7 +130,7 @@ video
   background-position: bottom left
   background-size: 0 3px
   transition: background-size 500ms ease-in-out
-  font-weight: 800
+  font-weight: 900
   &:hover
     background-size: 100% 3px
     color: inherit
