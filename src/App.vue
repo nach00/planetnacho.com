@@ -58,6 +58,7 @@ video
   top: 0
   left: 0
   background-color: black
+  filter: brightness(50%)
 .tinted-bg
   background: rgba(0, 0, 0, .6)
 .orange-divider

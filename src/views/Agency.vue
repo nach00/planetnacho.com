@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <v-container
-      class="black"
+      class="black pa-16"
       style="max-width: 1080px"
     >
       <v-container
@@ -419,9 +419,9 @@
                 3 revisions
               </v-container>
             </v-container>
-            <v-container class="d-flex">
-              <v-container
-                class="d-flex small-title"
+            <v-container class="d-flex align-center justify-space-between">
+              <div
+                class="d-flex-inline text-center"
               >
                 <span
                   class="text-uppercase font-weight-black"
@@ -431,7 +431,7 @@
                 <span class="price cheese--text ml-1 font-weight-black">
                   $3K
                 </span>
-              </v-container>
+              </div>
               <v-btn
                 align="end"
                 class=" cheese font-weight-black"
