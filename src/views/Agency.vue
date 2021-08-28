@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <v-container
-      class="black pa-16"
+      class="black pa-lg-16 pa-md-4"
       style="max-width: 1080px"
     >
       <v-container
