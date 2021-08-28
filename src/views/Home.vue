@@ -29,9 +29,4 @@
 
 <style lang="sass" scoped>
 
-.landingPageSubtitle
-  font-size: medium
-  font-family: monotalic, monospace
-  letter-spacing: .3em
-  font-weight: 600
 </style>

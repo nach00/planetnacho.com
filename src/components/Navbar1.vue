@@ -1,9 +1,12 @@
 <template>
-  <v-content class="">
+  <v-content
+    class=""
+  >
     <v-toolbar
       class="mt-16 px-16 transparent"
       min-width="100vw"
       flat
+      style="z-index: 999;"
     >
       <v-toolbar-title
         style="cursor: pointer"
@@ -161,6 +164,7 @@
       drawer: false,
       group: null
     }),
+
     watch: {
       group () {
         this.drawer = true
