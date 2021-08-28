@@ -265,7 +265,7 @@
             <v-col
               id="right"
               class=" d-flex flex-column"
-              cols="4"
+              cols="5"
             >
               <v-container class="">
                 <v-container class=" d-flex justify-end pa-0 mb-5">
