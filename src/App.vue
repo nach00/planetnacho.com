@@ -52,10 +52,10 @@ html
 
 *
   //cursor: url(../public/img/rocketship.png), auto
-  font-family: "Inter var", serif !important
+  font-family: "Inter var", sans-serif !important
 
 .text
-  font-family: "Inter var", serif !important
+  font-family: "Inter var", sans-serif !important
 
   &-s
     @extend .text

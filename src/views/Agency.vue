@@ -80,7 +80,7 @@
             </div>
             <div class="orange-divider mb-5" />
             <div class="text-l">
-              Alpha testing is now live! Be the first to help shape the future of our design process. Used to collect initial market research, generate product strategy, and gather client feedback.
+              Alpha testing is now live! Be one of the first to help shape the future of our design process. Used to collect initial market research, generate product strategy, and gather client feedback.
             </div>
           </v-col>
           <v-col>
@@ -179,7 +179,7 @@
 
           <div class="orange-divider mb-5" />
           <div class="text-l">
-            Alpha testing is now live! Be the first to help shape the future of our design process. Used to collect initial market research, generate product strategy, and gather client feedback.
+            Alpha testing is now live! Be one of the first to help shape the future of our design process. Used to collect initial market research, generate product strategy, and gather client feedback.
           </div>
         </v-col>
         <v-col>
@@ -254,18 +254,23 @@
                       >
                         mdi-cellphone
                       </v-icon>
-                      5 Mobile screens
+                      <span class="cheese--text font-weight-black">
+                        5
+                      </span>
+                      Mobile screens
                     </v-col>
                     <v-col class="text-l text-uppercase font-weight-black text-center d-flex align-center justify-center">
                       - or -
                     </v-col>
-                    <v-col class="text-l cheese--text text-uppercase text-center darken-4 grey ">
+                    <v-col class="text-l cheese--text text-uppercase text-center darken-4 justify-center grey d-flex align-center">
                       <v-icon
                         class="cheese--text mr-1"
                       >
                         mdi-monitor
                       </v-icon>
-                      3 desktop screens
+                      <span class="cheese--text font-weight-black">
+                        3
+                      </span> desktop screens
                     </v-col>
                   </v-row>
                 </v-container>
@@ -376,7 +381,10 @@
                       >
                         mdi-cellphone
                       </v-icon>
-                      5 Mobile screens
+                      <span class=" cheese--text font-weight-black">
+                        5
+                      </span>
+                      Mobile screens
                     </v-col>
                     <v-col class="text-l text-uppercase font-weight-black text-center">
                       - or -
@@ -387,7 +395,10 @@
                       >
                         mdi-monitor
                       </v-icon>
-                      3 desktop screens
+                      <span class=" cheese--text font-weight-black">
+                        3
+                      </span>
+                      desktop screens
                     </v-col>
                   </v-row>
                 </v-container>
@@ -472,6 +483,13 @@
               </v-btn>
             </v-container>
           </v-row>
+
+          <!--          <v-row style="border: white 2px solid; background: none">-->
+          <!--            <v-container>-->
+          <!--              Future Services-->
+          <!--            </v-container>-->
+          <!--          </v-row>-->
+          <!--          >-->
         </v-container>
       </v-container>
     </v-container>

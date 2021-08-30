@@ -18,6 +18,11 @@ export default new Router({
       component: () => import('./views/Agency.vue')
     },
     {
+      path: '/policy',
+      name: 'policy',
+      component: () => import('./views/Policy.vue')
+    },
+    {
       path: '/contact',
       name: 'contact',
       component: () => import('./views/Contact.vue')
